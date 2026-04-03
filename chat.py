@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 #above lines import necessary classes and all
 
-st.title("Daarsiel's first AI chatbot") #big title ahh
+st.title("Daarsiel's first chatbot") #big title ahh
 if "messages" not in st.session_state:
     st.session_state.messages=[]
 #above if block checks for session state messages and if there aren't any, it initialises as it should
